@@ -1,4 +1,5 @@
 #kamnuzpap
+#autor: karolina
 from random import randrange
 vstup = input('Zadej kamen, nuzky nebo papir: ')
 cislo = randrange(3)
