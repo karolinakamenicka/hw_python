@@ -3,3 +3,4 @@ text = 'Youre a troublemaker Youre a troublemaker You aint nothing but a trouble
 number = text.find('k')
 
 print('obsahuje to pismeno k ' + str(number) + ' krat.')
+#koment
