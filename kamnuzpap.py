@@ -19,3 +19,4 @@ elif (vstup == 'kamen' and pocitac == 'nuzky') or (vstup == 'nuzky' and pocitac 
 else :
     vysledek = 'vyhral pocitac'
 print('Vysledek zapasu je: ' +vysledek)
+#hotovo
