@@ -3,4 +3,4 @@ def tah(pole,cislo_policka,symbol):
     return pole
 
 novepole = tah('---xx---oxx----ooo--',0, 'x')
-print(novepole)
+#print(novepole)
