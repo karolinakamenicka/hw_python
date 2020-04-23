@@ -5,7 +5,7 @@ def tah_hrace(pole, cislo_policka):
         if cislo_policka <0 :
             print('Zadal jsi spatne cislo')
             
-        elif cislo_policka> len(pole):
+        elif cislo_policka>= len(pole):
             print('Zadal jsi spatne cislo')
            
         elif pole[cislo_policka] != '-':
@@ -19,6 +19,6 @@ def tah_hrace(pole, cislo_policka):
         cislo_policka= int(input('zadej nove cislo'))
     return pole
 
-pole2 = tah_hrace('x------------------', int(input('zadej pozici hrani')))
+#pole2 = tah_hrace('x------------------', int(input('zadej pozici hrani')))
 
-print(pole2)
+##print(pole2)
