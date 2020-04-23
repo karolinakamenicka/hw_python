@@ -4,3 +4,4 @@ number = text.find('k')
 
 print('obsahuje to pismeno k ' + str(number) + ' krat.')
 #koment
+#koment
