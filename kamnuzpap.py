@@ -1,5 +1,4 @@
 
-
 from random import randrange
 
 vstup = input('Zadej kamen, nuzky nebo papir: ')
