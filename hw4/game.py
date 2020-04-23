@@ -19,6 +19,8 @@ print('prvni hrac potreboval hodu '+str(i))
 print('druhy hrac potreboval hodu '+str(j)) 
 print('treti hrac potreboval hodu '+str(k)) 
 
+
+
 if i >= j:
     if i >=k:
         print('vyhral prvni hrac')
@@ -30,4 +32,3 @@ else:
     else:
         print('vyhral treti hrac')   
 
-        
