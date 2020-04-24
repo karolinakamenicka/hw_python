@@ -5,10 +5,9 @@ from tah_hrace import tah_hrace
 
 def piskvorky1d():
     pole = '--------------------'
-    konec = False
     b = 2
     print('aktualni pole: '+ pole)
-    while konec ==False: 
+    while True:
         
         if b%2 == 0:
             pole = tah_hrace(pole, int(input('zadej policko tahu, jsi x: ')))
@@ -19,13 +18,13 @@ def piskvorky1d():
         print('aktualni pole: '+ pole)
         if vyhodnot(pole)== 1:
             print('vyhral pocitac')
-            konec = True
+            return
         elif vyhodnot(pole)== 2:
             print('vyhral jsi')
-            konec = True
+            return
         elif vyhodnot(pole)== 3:
             print('konec hry nikdo nevyhral')
-            konec = True
+            return
         b = b+1
         
 piskvorky1d()
