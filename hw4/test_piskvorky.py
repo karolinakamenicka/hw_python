@@ -18,6 +18,12 @@ def vyhodnot(stri):
       #print('nikdo zatim nevyhral, hra neskoncila')
     return a 
 
+def test_vyhodnot():
+    assert vyhodnot('---xxx---') == 2
+    assert vyhodnot('ooo-') == 1
+    assert vyhodnot('oxox') == 3
+
+
 def tah_hrace(pole, cislo_policka):
     i=0
     while i == 0 :
@@ -37,6 +43,10 @@ def tah_hrace(pole, cislo_policka):
             break
         cislo_policka= int(input('zadej nove cislo'))
     return pole
+
+def test_tah_hrace():
+    assert tah_hrace('---x--',0) == 'x--x--'
+
 
 def piskvorky1d():
     pole = '--------------------'

@@ -12,5 +12,4 @@ def tah_pocitace(pole):
                 a = 1
     return pole
 
-
-    
+#print(tah_pocitace('------------'))

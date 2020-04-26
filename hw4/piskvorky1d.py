@@ -1,4 +1,4 @@
-from tah_pocitace import tah_pocitace 
+from ai import tah_pocitace 
 from piskvorky import vyhodnot 
 from tah_hrace import tah_hrace 
 
