@@ -17,4 +17,4 @@ def more_list(a,b):
     return list_cup,list_minusab #list_minusba
 
 def test_more_list():
-    assert more_list([0,1,2,3],[2,3,4]) == [0,1,2,3,4], [0,1]
+    assert more_list([0,1,2,3],[2,3,4]) == ([0,1,2,3,4], [0,1])
